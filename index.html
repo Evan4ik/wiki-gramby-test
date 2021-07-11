@@ -17,14 +17,21 @@ text-decoration:  none;
 }
   
 #sidebar { 
-  position:fixed;width:240px;bottom:0px;height: 100%;border-right: 4px #000000 solid;border-right-width: thin; 
+  position:absolute;width:240px;bottom:0px;height: 100%
   }
 #main {
-  position:relative;left:265px;width:65%;
+  position:relative;left:225px;width:100%;
+  border: 4px #000000 solid;border-width: thin;
   }
  #infobox {
-   position:absolute;left:105%;width:300px;height:500px;border:2px #000000 solid;border-width: thin;word-break: break-all; 
+   position:absolute;left:80%;width:300px;height:500px;border:2px #000000 solid;
+    border-width: thin;word-break: break-all;
   }
+  div infobox {
+    width: 240px;
+    float: right;
+    padding: 25px;
+}
 </style>
 </head>
 
@@ -36,7 +43,8 @@ text-decoration:  none;
   <div id="main">
   <h1> Comedy </h1>
   <hr>
-  <div id="infobox">
+    <br/>
+  <div id="infobox" style="float: right; margin-top: 10px;">
     <center><h2> tony :) </h2>
     <img width="256" height="256" src="tony.png"> </img>
     </center>
